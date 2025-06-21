@@ -1,0 +1,43 @@
+@page "/servicedetails/{Id:int}"
+@inject ServicesApiClient ServiceClient
+@inject ReservationsApiClient ReservationClient
+@inject NavigationManager NavManager
+
+@using MudBlazor
+@using Booking.SharedKernel.Requests
+
+<PageTitle>Szczegóły usługi</PageTitle>
+
+@if (service == null)
+{
+  <p><em>Ładowanie...</em></p>
+}
+else
+{
+  <MudCard>
+    <MudCardHeader>
+      <MudText Typo="Typo.h5">@service.Name</MudText>
+    </MudCardHeader>
+    <MudCardActions>
+      <MudButton OnClick="Reserve" Color="Color.Primary">Zarezerwuj</MudButton>
+    </MudCardActions>
+  </MudCard>
+}
+
+@code {
+  [Parameter] public int Id { get; set; }
+  private ServiceDto? service;
+
+  protected override async Task OnInitializedAsync()
+    => service = await ServiceClient.GetByIdAsync(Id);
+
+  private async Task Reserve()
+  {
+    await ReservationClient.CreateAsync(new CreateReservationRequest {
+      UserId = 1,
+      ServiceId = Id,
+      AppointmentSlotId = 1
+    });
+    NavManager.NavigateTo("/myreservations");
+  }
+}

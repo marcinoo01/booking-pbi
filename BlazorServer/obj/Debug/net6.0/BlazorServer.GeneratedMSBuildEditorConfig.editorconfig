@@ -1,0 +1,36 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorServer
+build_property.RootNamespace = BlazorServer
+build_property.ProjectDir = /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/Pages/MyReservations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXlSZXNlcnZhdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/Pages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

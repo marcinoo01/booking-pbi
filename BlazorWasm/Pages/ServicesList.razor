@@ -1,0 +1,57 @@
+@page "/services"
+@inject ServicesApiClient ApiClient
+@inject NavigationManager NavManager
+
+<PageTitle>Usługi</PageTitle>
+
+<MudContainer Class="mt-4">
+
+  <!-- Dwa przykładowe, hardcodowane obrazki -->
+  <MudGrid Gutter="2" Class="mb-6">
+    <MudItem xs="6" sm="3">
+      <MudPaper Elevation="1" Class="pa-2 d-flex justify-center">
+        <img src="images/174-200x300.jpg"
+             alt="Przykład 1"
+             style="max-width:100%; height:auto;" />
+      </MudPaper>
+    </MudItem>
+    <MudItem xs="6" sm="3">
+      <MudPaper Elevation="1" Class="pa-2 d-flex justify-center">
+        <img src="images/17-200x300.jpg"
+             alt="Przykład 2"
+             style="max-width:100%; height:auto;" />
+      </MudPaper>
+    </MudItem>
+  </MudGrid>
+
+  <MudTable Items="services">
+    <HeaderContent>
+      <MudTh>Nazwa</MudTh>
+      <MudTh>Opis</MudTh>
+      <MudTh>Czas Trwania</MudTh>
+      <MudTh>Akcje</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+      <MudTd DataLabel="Nazwa">@context.Name</MudTd>
+      <MudTd DataLabel="Opis">@context.Description</MudTd>
+      <MudTd DataLabel="Czas Trwania">@context.DurationMinutes&nbsp;min</MudTd>
+      <MudTd DataLabel="Akcje">
+        <MudButton Color="Color.Primary"
+                   Variant="Variant.Text"
+                   OnClick="@(() => NavManager.NavigateTo($"/servicedetails/{context.Id}"))">
+          Szczegóły
+        </MudButton>
+      </MudTd>
+    </RowTemplate>
+  </MudTable>
+
+</MudContainer>
+
+@code {
+  private List<ServiceDto> services = new();
+
+  protected override async Task OnInitializedAsync()
+  {
+    services = await ApiClient.GetAllAsync() ?? new();
+  }
+}

@@ -1,0 +1,15 @@
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/bin/Debug/net6.0/Domain.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/bin/Debug/net6.0/Domain.pdb
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/refint/Infrastructure.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+/Users/marcinmistela/RiderProjects/Booking/Booking/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll

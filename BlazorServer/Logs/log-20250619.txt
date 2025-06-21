@@ -1,0 +1,129 @@
+2025-06-19 16:40:03.488 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 16:40:03.660 +02:00 [INF] Creating key {06090388-746c-45d5-8a96-f1357a22a5c7} with creation date 2025-06-19 14:40:03Z, activation date 2025-06-19 14:40:03Z, and expiration date 2025-09-17 14:40:03Z.
+2025-06-19 16:40:03.673 +02:00 [WRN] No XML encryptor configured. Key {06090388-746c-45d5-8a96-f1357a22a5c7} may be persisted to storage in unencrypted form.
+2025-06-19 16:40:03.678 +02:00 [INF] Writing data to file '/Users/marcinmistela/.aspnet/DataProtection-Keys/key-06090388-746c-45d5-8a96-f1357a22a5c7.xml'.
+2025-06-19 16:40:16.682 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 16:41:04.260 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 16:41:04.552 +02:00 [INF] Now listening on: http://localhost:5010
+2025-06-19 16:41:04.559 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 16:41:04.561 +02:00 [INF] Hosting environment: Production
+2025-06-19 16:41:04.564 +02:00 [INF] Content root path: /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/
+2025-06-19 16:42:20.519 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5010/ - -
+2025-06-19 16:42:20.543 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-06-19 16:42:20.585 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-06-19 16:42:20.609 +02:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2025-06-19 16:42:20.620 +02:00 [ERR] Connection id "0HNDF7TV5GLE3", Request id "0HNDF7TV5GLE3:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-19 16:42:20.629 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5010/ - - - 500 0 - 115.2555ms
+2025-06-19 16:42:21.827 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5010/favicon.ico - -
+2025-06-19 16:42:21.830 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5010/favicon.ico - - - 404 0 - 3.1343ms
+2025-06-19 16:44:18.612 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5010/ - -
+2025-06-19 16:44:18.618 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-06-19 16:44:18.623 +02:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2025-06-19 16:44:18.625 +02:00 [ERR] Connection id "0HNDF7TV5GLE4", Request id "0HNDF7TV5GLE4:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-19 16:44:18.629 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5010/ - - - 500 0 - 17.7485ms
+2025-06-19 16:45:22.864 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5010/swagger - -
+2025-06-19 16:45:22.871 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-06-19 16:45:22.874 +02:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2025-06-19 16:45:22.875 +02:00 [ERR] Connection id "0HNDF7TV5GLE5", Request id "0HNDF7TV5GLE5:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-19 16:45:22.877 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5010/swagger - - - 500 0 - 14.1081ms
+2025-06-19 16:46:10.727 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5010/services - -
+2025-06-19 16:46:10.731 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2025-06-19 16:46:10.734 +02:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2025-06-19 16:46:10.735 +02:00 [ERR] Connection id "0HNDF7TV5GLE6", Request id "0HNDF7TV5GLE6:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-06-19 16:46:10.736 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5010/services - - - 500 0 - 11.8993ms
+2025-06-19 17:05:28.659 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 17:05:29.049 +02:00 [INF] Now listening on: http://localhost:5010
+2025-06-19 17:05:29.055 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 17:05:29.056 +02:00 [INF] Hosting environment: Production
+2025-06-19 17:05:29.056 +02:00 [INF] Content root path: /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/
+2025-06-19 17:24:53.191 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 17:24:53.536 +02:00 [INF] Now listening on: http://localhost:5010
+2025-06-19 17:24:53.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 17:24:53.551 +02:00 [INF] Hosting environment: Production
+2025-06-19 17:24:53.551 +02:00 [INF] Content root path: /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/
+2025-06-19 17:31:38.989 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 17:31:39.327 +02:00 [INF] Now listening on: http://localhost:5010
+2025-06-19 17:31:39.334 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 17:31:39.335 +02:00 [INF] Hosting environment: Production
+2025-06-19 17:31:39.335 +02:00 [INF] Content root path: /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/
+2025-06-19 17:33:47.607 +02:00 [INF] User profile is available. Using '/Users/marcinmistela/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-06-19 17:33:47.905 +02:00 [INF] Now listening on: http://localhost:5010
+2025-06-19 17:33:47.913 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 17:33:47.914 +02:00 [INF] Hosting environment: Production
+2025-06-19 17:33:47.914 +02:00 [INF] Content root path: /Users/marcinmistela/RiderProjects/Booking/Booking/BlazorServer/

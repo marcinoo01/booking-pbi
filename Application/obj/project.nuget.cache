@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XSMnp+C1SViCxnayjYYgemrT/IO3yMzjzlG1f5epzaQHrQFovmOMj4KslqqCHRm54fL0ry0i9BNG+rGZszW+Gw==",
+  "success": true,
+  "projectFilePath": "/Users/marcinmistela/RiderProjects/Booking/Booking/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/marcinmistela/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/fluentvalidation/11.2.2/fluentvalidation.11.2.2.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/marcinmistela/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

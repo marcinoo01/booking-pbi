@@ -1,0 +1,12 @@
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/bin/Debug/net6.0/Domain.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/refint/Domain.dll
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/Domain.pdb
+/Users/marcinmistela/RiderProjects/Booking/Booking/Domain/obj/Debug/net6.0/ref/Domain.dll

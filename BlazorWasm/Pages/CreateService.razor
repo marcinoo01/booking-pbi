@@ -1,0 +1,76 @@
+@page "/createservice"
+@using Booking.SharedKernel.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using MudBlazor
+@inject ServicesApiClient ApiClient
+@inject NavigationManager NavManager
+
+<PageTitle>Dodaj nową usługę</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.Small" Class="mt-6">
+  <MudPaper Elevation="4" Class="p-6">
+    <MudText Typo="Typo.h5" GutterBottom>Dodaj nową usługę</MudText>
+
+    <!-- Uwaga: to musi być EditForm, by działały DataAnnotationsValidator i ValidationSummary -->
+    <EditForm Model="@newService" OnValidSubmit="HandleValidSubmit">
+      <DataAnnotationsValidator />
+      <ValidationSummary />
+
+      <MudGrid Gutter="3">
+        <MudItem xs="12">
+          <MudTextField @bind-Value="newService.Name"
+                        Label="Nazwa"
+                        Required="true"
+                        For="@(() => newService.Name)"
+                        FullWidth="true" />
+        </MudItem>
+
+        <MudItem xs="12">
+          <MudTextField @bind-Value="newService.Description"
+                        Label="Opis"
+                        Required="true"
+                        For="@(() => newService.Description)"
+                        FullWidth="true"
+                        Lines="3" />
+        </MudItem>
+
+        <MudItem xs="12" sm="6">
+          <MudNumericField T="int"
+                           @bind-Value="newService.DurationMinutes"
+                           Label="Czas trwania (min)"
+                           Required="true"
+                           For="@(() => newService.DurationMinutes)"
+                           FullWidth="true" />
+        </MudItem>
+
+        <MudItem xs="12" Class="d-flex justify-end">
+          <!-- Zwykły button type=submit wewnątrz EditForm -->
+          <MudButton ButtonType="ButtonType.Submit"
+                     Variant="Variant.Filled"
+                     Color="Color.Primary">
+            Zapisz
+          </MudButton>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+          <MudPaper Elevation="1" Class="pa-4 d-flex justify-center">
+            <img src="images/345-200x300.jpg" alt="Obraz 345" style="max-width:100%;" />
+          </MudPaper>
+        </MudItem>
+      </MudGrid>
+    </EditForm>
+
+  </MudPaper>
+</MudContainer>
+
+@code {
+  private ServiceDto newService = new();
+
+  private async Task HandleValidSubmit()
+  {
+    var created = await ApiClient.CreateAsync(newService);
+    if (created is not null)
+    {
+      NavManager.NavigateTo("/services");
+    }
+  }
+}

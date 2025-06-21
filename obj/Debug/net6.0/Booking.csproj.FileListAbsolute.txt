@@ -1,0 +1,5 @@
+/Users/marcinmistela/RiderProjects/Booking/Booking/obj/Debug/net6.0/Booking.csproj.AssemblyReference.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/obj/Debug/net6.0/Booking.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcinmistela/RiderProjects/Booking/Booking/obj/Debug/net6.0/Booking.AssemblyInfoInputs.cache
+/Users/marcinmistela/RiderProjects/Booking/Booking/obj/Debug/net6.0/Booking.AssemblyInfo.cs
+/Users/marcinmistela/RiderProjects/Booking/Booking/obj/Debug/net6.0/Booking.csproj.CoreCompileInputs.cache

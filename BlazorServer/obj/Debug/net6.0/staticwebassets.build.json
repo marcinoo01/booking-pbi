@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "Hash": "R5kYX4V2ocXD9XtGRSsS/0ZMGMC5G++LM7P9cYC4jT0=",
+  "Source": "BlazorServer",
+  "BasePath": "_content/BlazorServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.css"
+    },
+    {
+      "Identity": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/marcinmistela/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.js"
+    }
+  ]
+}

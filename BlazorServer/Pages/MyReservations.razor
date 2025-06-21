@@ -1,0 +1,51 @@
+@page "/myreservations"
+@using MudBlazor
+@using Booking.Domain.Entities
+@inject IUnitOfWork Uow
+
+<PageTitle>Moje Rezerwacje</PageTitle>
+
+<MudTable Items="myReservations">
+ <HeaderContent>
+  <MudTh>Id</MudTh>
+  <MudTh>Usługa</MudTh>
+  <MudTh>Slot</MudTh>
+  <MudTh>Akcje</MudTh>
+ </HeaderContent>
+ <RowTemplate>
+  <MudTd DataLabel="Id">@context.Id</MudTd>
+  <MudTd DataLabel="Usługa">@context.Service.Name</MudTd>
+  <MudTd DataLabel="Slot">@context.AppointmentSlot.StartTime.ToString("g")</MudTd>
+  <MudTd DataLabel="Akcje">
+   <MudButton Color="Color.Error" OnClick="@(() => CancelReservation(context.Id))">
+    Anuluj
+   </MudButton>
+  </MudTd>
+ </RowTemplate>
+</MudTable>
+
+@code {
+private List<Reservation> myReservations = new();
+
+protected override async Task OnInitializedAsync()
+{
+// Na potrzeby demo zakładamy jednego użytkownika o Id = 1
+var currentUserId = 1;
+
+// Pobierz wszystkie rezerwacje i odfiltruj po użytkowniku
+var all = await Uow.Reservations.GetAllAsync();
+myReservations = all.Where(r => r.UserId == currentUserId).ToList();
+}
+
+private async Task CancelReservation(int id)
+{
+// Pobierz encję, usuń ją i zapisz zmiany
+var toDelete = await Uow.Reservations.GetByIdAsync(id)
+?? throw new InvalidOperationException("Rezerwacja nie znaleziona");
+Uow.Reservations.Delete(toDelete);
+await Uow.SaveChangesAsync();
+
+// Odśwież widok
+myReservations.RemoveAll(r => r.Id == id);
+}
+}

@@ -1,0 +1,66 @@
+
+```gitignore
+# Visual Studio, Rider, VS Code
+.vs/
+.vscode/
+.idea/
+
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.gz
+# ASP.NET
+wwwroot/lib/
+
+# EF Core migrations
+**/Migrations/**
+
+# SQLite database
+Booking/WebApi/booking.db
+
+# Serilog log files
+**/Logs/*.txt
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Rider caches
+.idea/
+*.sln.iml
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.db
+# Others
+.DS_Store
+/WebApi/bin/
+/WebApi/Logs/
+/WebApi/obj/
+/SharedKernel/bin/
+/SharedKernel/obj/
+/Infrastructure/bin/
+/Infrastructure/Logging/
+/Infrastructure/obj/
+/Domain/bin/
+/Domain/obj/
+/Booking/obj/
+/BlazorWasm/bin/
+/BlazorWasm/obj/
+/BlazorServer/bin/
+/BlazorServer/obj/
+/Application/

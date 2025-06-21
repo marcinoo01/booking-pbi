@@ -1,0 +1,25 @@
+@namespace Booking.BlazorWasm.Shared
+@inherits Microsoft.AspNetCore.Components.LayoutComponentBase
+@using MudBlazor
+@using Microsoft.AspNetCore.Components.Routing
+
+<MudLayout>
+  <MudAppBar Color="Color.Primary" Elevation="1">
+    <MudText Typo="Typo.h6">Booking System</MudText>
+  </MudAppBar>
+
+  <MudDrawer Open="true" ClipMode="DrawerClipMode.Never" Elevation="1">
+    <MudNavMenu>
+      <MudNavLink Href="/services" Icon="@Icons.Material.Filled.List" Match="NavLinkMatch.All">
+        Usługi
+      </MudNavLink>
+      <MudNavLink Href="/createservice" Icon="@Icons.Material.Filled.Add">
+        Nowa usługa
+      </MudNavLink>
+    </MudNavMenu>
+  </MudDrawer>
+
+  <MudMainContent>
+    @Body
+  </MudMainContent>
+</MudLayout>

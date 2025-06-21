@@ -1,0 +1,34 @@
+@page "/services"
+@inject IUnitOfWork Uow
+
+<PageTitle>Usługi</PageTitle>
+
+<MudTable Items="services">
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Nazwa</MudTh>
+        <MudTh>Opis</MudTh>
+        <MudTh>Akcje</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Nazwa">@context.Name</MudTd>
+        <MudTd DataLabel="Opis">@context.Description</MudTd>
+        <MudTd DataLabel="Akcje">
+            <MudButton OnClick="@(() => ShowDetails(context.Id))">Szczegóły</MudButton>
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+private List<Service> services = new();
+
+protected override async Task OnInitializedAsync()
+{
+services = (await Uow.Services.GetAllAsync()).ToList();
+}
+
+void ShowDetails(int id)
+{
+}
+}
